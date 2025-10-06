@@ -1,6 +1,5 @@
 package game.collection;
 
-
 import java.awt.AWTException;
 import java.awt.Color;
 import java.awt.Component;
