@@ -1,3 +1,5 @@
+package game.collection;
+
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -33,7 +35,7 @@ public class TicTacToeUnbeatable extends JFrame implements ActionListener {
 
     public TicTacToeUnbeatable() {
         super("Tic-Tac-Toe (Unbeatable AI)");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(360, 420);
         setLayout(new BorderLayout());
 

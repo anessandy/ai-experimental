@@ -1,3 +1,5 @@
+package game.collection;
+
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -147,7 +149,7 @@ public class IntelligentAgentBehavior extends JPanel implements ActionListener, 
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Intelligent Agent");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.add(new IntelligentAgentBehavior());
         frame.pack();
         frame.setLocationRelativeTo(null);

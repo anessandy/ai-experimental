@@ -1,3 +1,5 @@
+package game.collection;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -43,7 +45,7 @@ public class EightPuzzle extends JFrame {
 
     public EightPuzzle() {
         super("8-Puzzle (A* - Manhattan)");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(380, 480);
         setLayout(new BorderLayout());
 

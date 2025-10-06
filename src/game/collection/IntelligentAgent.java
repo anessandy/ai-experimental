@@ -1,3 +1,5 @@
+package game.collection;
+
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -159,7 +161,7 @@ public class IntelligentAgent extends JPanel implements ActionListener, MouseLis
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Intelligent Agent");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.add(new IntelligentAgent());
         frame.pack();
         frame.setLocationRelativeTo(null);
